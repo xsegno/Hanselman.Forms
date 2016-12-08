@@ -1,13 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
+using Hanselman.Portable;
+using ImageCircle.Forms.Plugin.iOS;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-using Hanselman.Portable;
-using ImageCircle.Forms.Plugin.iOS;
 
 namespace Hanselman.iOS
 {
@@ -38,6 +37,9 @@ namespace Hanselman.iOS
             ImageCircleRenderer.Init();
             LoadApplication(new App());
             
+            #if ENABLE_TEST_CLOUD
+                Xamarin.Calabash.Start();
+            #endif
 
             return base.FinishedLaunching(app, options);
         }

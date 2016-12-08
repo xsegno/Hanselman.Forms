@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{E5B4A6E4-CAAA-4E33-BC65-4D8214905BB3}|Default">
+  <MonoDevelop.Ide.ItemProperties.UITests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hanselman.iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="UITests/AppInitializer.cs" Line="1" Column="1" />
+      <File FileName="UITests/Tests.cs" Line="31" Column="45" />
+      <File FileName="Hanselman.iOS/AppDelegate.cs" Line="42" Column="19" />
+      <File FileName="Hanselman.Portable/App.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Hanselman.Forms" expanded="True">
+            <Node name="UITests" expanded="True">
+              <Node name="UITests" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="Tests(iOS)" expanded="True">
+                    <Node name="AppLaunches" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Hanselman.Android PreferredExecutionTarget="Android.Nexus_6P_23" />
+</Properties>
